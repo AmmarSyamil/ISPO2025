@@ -44,3 +44,15 @@ The application uses pre-trained TensorFlow models to classify the uploaded imag
    ```bash
    git clone https://github.com/yourusername/miaw-mci-screening.git
    cd miaw-mci-screening
+2. **Set-Up Virtual environment**
+   ```bash
+   python -m venv venv
+   > Windows
+   venv\Scripts\activate
+   > Linux
+   source venv/bin/activate
+3. **Download requirement**
+   ```bash
+   pip install -r requirements.txt
+
+
